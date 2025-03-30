@@ -79,7 +79,7 @@ header {
 
 .hero {
 	display: flex;
-	padding-top: 12px;
+	padding-block: 12px 10px;
 	justify-content: space-between;
 
 	.content {
@@ -127,4 +127,12 @@ header {
 	img {
 		margin-right: -15px;
 	}
+}
+
+.tools {
+	padding-block: 100px;
+}
+
+.design {
+	padding-top: 110px;
 }
